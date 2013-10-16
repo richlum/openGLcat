@@ -1,0 +1,59 @@
+Richard Lum
+41671785
+cs314 Lab 2
+2013 09 29
+
+--------------------------------------------
+
+Cat drawn using only drawEllipse wich uses solidsphere and scaling
+
+Interpolation code based on linear interpolation between adjacent
+key frame values for each attribute.  It is assumed that the last frame
+is to be looped to the first so that there is an interpolation between 
+last and first frame.
+
+keyboard options include
+	t key cycles between 2 segment tail, 20 segment tail, 20 segment tail
+	with tail tip reverse angle (for S effect)
+
+	a key cycles texture on and off for base.
+
+	z key animates the floor when a texture is active.  floor moves at
+	rate controlled by frame rate in the -x direction for use with run.txt
+
+	h key hides/shows the colored axes
+
+
+run.txt is a 4 frame animation simulating a cat running at full speed.
+	best shows the tail options and enables S shape tails
+
+Cat implemented with multiple degrees of freedom and exercised with
+debug4.txt
+	all legs have ability to rotate in z and y
+	chest can rotate in x y and z
+	head can rotate in x y and z
+	body can rotate in x y and z
+	body can translate in x y and z
+	tail option, keyboard t to enable two special tail modes
+
+rollover.txt =  cat sits, lays down, curls around
+ looks around, rolls over
+	 sitting cat  - rear legs splay in x rotation in addition to z.
+	 laying down cat - front legs come together rotating around x in addition to z
+	 curling cat, chest rotates in x and z
+	 looking around cat, head rotates around x
+	 rollover, rotations of chest xyz, head xyz and translation of body in z
+
+debug4.txt is a modified version of debug.txt provided. It exercises and shows
+	most of the extra degrees of freedom implemented as an add on to the 
+	end of the file.
+
+
+sources:
+	brick road texture:  
+		http://jay-b-rich.deviantart.com/art/Brick-Road-2-Texture-89617976
+	grass texture: http://en.cze.cz/Textures
+	bmp importing code: //http://www.opengl-tutorial.org/beginners-tutorials/tutorial-5-a-textured-cube/
+	basis for texture application : redbook example checker.c chapter 9
+	
+	

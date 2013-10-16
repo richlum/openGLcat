@@ -1,0 +1,7 @@
+# This file contains a single pose of the kitten standing relaxed.
+#
+#          BODY           | SHOULDER  | HEAD  |  FRONT LEFT  |  FRONT RIGHT |  BACK LEFT   |  BACK RIGHT  | TAILBASE | TAILTIP |
+#  X  |  Y  |  Z  | ANGLE |   ANGLE   | ANGLE | THIGH | CALF | THIGH | CALF | THIGH | CALF | THIGH | CALF |  ANGLE   |  ANGLE  |
+# ------------------------------------------------------------------------------------------------------------------------------
+  0.0   2.3   0.0     15        -15        -30      -10     17     -10     17     -20     37     -20     37       -10       -10
+

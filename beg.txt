@@ -1,0 +1,11 @@
+# This file contains a single run cycle of our kitten.
+# Speed up the play-rate via '>' when running!
+#
+#          BODY           | SHOULDER  | HEAD  |  FRONT LEFT  |  FRONT RIGHT |  BACK LEFT   |  BACK RIGHT  | TAILBASE | TAILTIP |
+#  X  |  Y  |  Z  | ANGLE |   ANGLE   | ANGLE | THIGH | CALF | THIGH | CALF | THIGH | CALF | THIGH | CALF |  ANGLE   |  ANGLE  |
+# ------------------------------------------------------------------------------------------------------------------------------
+  0.0   2.3   0.0     -2        2        20      -10     17     -10     17     -20     37     -20     37       -10       -10
+  0.0   2.3   0.0     -2        2        20      -10     17     -10     17     -20     37     -20     37       -10       -10
+  0.0   2.3   0.0     -2        2        20      -10     17     -10     17     -20     37     -20     37       -10       -10
+ -0.6   1.0   0.0     35        4       -20       90    -110     90   -110      80    -80      80    -80       -80       -110
+ -0.8   0.8   0.0     40        5       -20       90    -110     90   -110      80    -80      80    -80       -80       -110
