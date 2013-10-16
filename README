@@ -4,6 +4,9 @@ http://www.youtube.com/watch?v=ZAuKZXiRA38
 
 for demo of a number of different pose files
 
+setup to compile for both posix and windows project as long
+as glut is installed.
+
 --------------------------------------------
 
 Cat drawn using only drawEllipse wich uses solidsphere and scaling
